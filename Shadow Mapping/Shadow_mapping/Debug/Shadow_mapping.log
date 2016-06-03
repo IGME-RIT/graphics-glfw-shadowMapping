@@ -1,0 +1,28 @@
+﻿Build started 5/31/2016 15:56:20.
+     1>Project "C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Shadow_mapping\Shadow_mapping.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Base.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Shadow_mapping\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(149): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(156): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(157): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(158): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(162): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(164): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(168): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(169): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(170): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping\shadow_mapping\main.cpp(209): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Debug\Shadow_mapping.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Shadow_mapping\\lib" opengl32.lib glew32.lib glfw3.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Debug\Shadow_mapping.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Debug\Shadow_mapping.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Shadow_mapping.vcxproj -> C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Debug\Shadow_mapping.exe
+     1>Done Building Project "C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping\Shadow_mapping\Shadow_mapping.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99
